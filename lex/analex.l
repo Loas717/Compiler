@@ -18,6 +18,8 @@ letra [a-zA-Z_]
 ")"   {return ')';}
 "{"	  {return '{';}
 "}"   {return '}';}
+"]"   {return ']';}
+"["   {return '[';}
 ";"   {return ';';}
 "="   {return '=';}
 "+"   {return '+';}
@@ -25,7 +27,7 @@ letra [a-zA-Z_]
 "*"   {return '*';}
 ","   {return ',';}
 "/"   {return '/';}
-"!"   {return NOT;}
+"!"   {return '!';}
 "and"   {return AND;}
 "or"   {return OR;}
 "while" {return WH;}

@@ -914,7 +914,7 @@ YY_RULE_SETUP
 case 30:
 YY_RULE_SETUP
 #line 39 "analex.l"
-{ insere(yytext); return NUM;}
+{ return NUM;}
 	YY_BREAK
 case 31:
 YY_RULE_SETUP
