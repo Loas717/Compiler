@@ -1,0 +1,5 @@
+lex -o analex.c analex.l
+yacc -o semantic.c semantic.y -d
+gcc -o semantic semantic.c -lfl
+./verifica_inconsistencias.sh 
+./semantic entrada2.c
